@@ -1,0 +1,13 @@
+[project]
+name = "laqta-ai"
+version = "1.0.0"
+description = "AI-powered YouTube thumbnail analyzer and creative assistant"
+requires-python = ">=3.11"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-ra"
+
+[tool.ruff]
+line-length = 110
+target-version = "py311"
